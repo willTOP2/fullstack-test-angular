@@ -1,0 +1,37 @@
+.sidenav {
+  
+  background-color: #ced4da;
+  width:265px; 
+}
+
+.sidenav a {
+
+   color: #fff;
+}
+
+.content {
+  padding: 16px; 
+  background-color: #fff;
+}
+
+.horas {
+padding-left: 100px; 
+align-items: center; 
+font-size: 20px;
+}
+
+.hello {
+
+   font-size: 22px;
+   font-family: 'Courier New', Courier, monospace;
+}
+
+.start {
+  padding-left: 10px;
+  color: black;
+}
+
+.material-icons {
+color: blue; 
+  
+}

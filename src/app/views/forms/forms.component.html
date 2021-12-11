@@ -1,0 +1,19 @@
+<mat-card>
+  <mat-card-title> Formulario </mat-card-title>
+<form>
+
+   <mat-form-field>
+     <input class="formulario" matInput placeholder="" 
+     type="text" [(ngModel)] = "input" name="input">
+    </mat-form-field>
+ 
+</form>
+<button mat-raised-button (click)="Mensagem()" color="primary">
+  Salvar
+</button>
+<p></p>
+<p></p>
+<p class="resposta"> Texto:  {{message}}</p>
+</mat-card>
+
+
